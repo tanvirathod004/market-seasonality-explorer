@@ -415,7 +415,7 @@ return (
 
 
         <Grid item size={4}>
-          <Card style={{ height: '350px', padding: '10px', marginBottom: '20px' }}>
+          <Card style={{ height: '34px', padding: '10px', marginBottom: '20px' }}>
             <VolumeChart
               weeklyData={weeklyData}
               monthlyData={monthlyData}
@@ -423,7 +423,7 @@ return (
               currentView={currentView}
             />
           </Card>
-          <Card style={{ height: '450px', padding: '10px', marginBottom: '20px' }}>
+          <Card style={{ height: '470px', padding: '10px', marginBottom: '20px' }}>
             <OrderBook
               bids={orderBook?.bids}
               asks={orderBook?.asks}
