@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableBody, TableCell, TableHead, TableRow, Typography, Box } from '@mui/material';
+import { Table, TableBody, TableCell, TableHead, TableRow, Typography, Box, Button } from '@mui/material';
 
 const OrderBook = ({bids, asks}) => {
     return (
@@ -25,6 +25,9 @@ const OrderBook = ({bids, asks}) => {
                             ))}
                         </TableBody>
                     </Table>
+                    <Box display="flex" justifyContent="center" mt={2}>
+                        <Button color='success' variant="contained">Buy</Button>
+                    </Box>
                 </Box>
 
                 <Box width="48%">
@@ -47,6 +50,9 @@ const OrderBook = ({bids, asks}) => {
                             ))}
                         </TableBody>
                     </Table>
+                    <Box display="flex" justifyContent="center" mt={2}>
+                        <Button color='error' variant="contained">Sell</Button>
+                    </Box>
                 </Box>
             </Box>
         </div>
