@@ -1,0 +1,40 @@
+.drawer-container {
+  padding: 6px 16px;
+  height: calc(100vh - 42px);
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 16px;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.drawer-header p {
+  margin: 0;
+  /* padding: 10px 0; */
+}
+
+.closeFormButton:hover {
+  background-color: #e71313;
+  border-radius: 2px;
+}
+
+.closeFormButton:hover svg {
+  fill: #FFF
+}
+
+.calender-box {
+  flex-grow: 1, ;
+  margin-top: -40px;
+}
+
+.calender-card {
+  width: 980px;
+  height: 830px;
+  margin-bottom: 20px;
+  padding: 10px
+}
