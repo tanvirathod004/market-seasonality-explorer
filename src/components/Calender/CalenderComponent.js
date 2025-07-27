@@ -389,7 +389,8 @@ return (
             )}
 
             <FullCalendar
-              key={symbolValue}
+              // key={symbolValue}
+              key={`${symbolValue}-${Object.keys(volatilityData).length}`}
               plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
               initialView={currentView}
               datesSet={handleDatesSet}
