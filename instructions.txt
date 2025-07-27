@@ -1,0 +1,52 @@
+To run the Market Seasonality Explorer project locally, you can follow these instructions based on the typical React project setup and 
+the details from the project:
+
+Prerequisites:
+
+1) Install Node.js (which includes npm) from the official website. Verify installation by running in your terminal:
+
+---------------
+node -v
+npm -v
+---------------
+
+2) Clone the repository:
+Use Git to clone the Market Seasonality Explorer GitHub repo to your local machine:
+
+----------------------
+git clone https://github.com/tanvirathod004/market-seasonality-explorer.git
+-----------------------
+
+3)Navigate into the project directory:
+
+---------------------------------
+cd market-seasonality-explorer
+--------------------------------
+
+4) Install dependencies:
+Run the npm install command to install all the required packages:
+
+-----------------------------------
+npm install
+-------------------------------------
+
+5) Run the project locally:
+Start the development server with:
+
+-----------------
+npm start
+------------------
+This will launch the app and open it in your browser, usually at http://localhost:3000.
+
+Explore the app:
+You should see the Market Seasonality Explorer dashboard where you can interact with the calendar, symbols, metrics, and export features.
+
+Development notes:
+
+If you want to modify or add features, edit the source files mostly under the Dashboard/, Calender/, and Charts/ folders.
+
+The app fetches live data from the Binance API, so ensure your internet connection is active.
+
+For exporting PDF or other features, the required libraries like html2canvas and jsPDF are already included in dependencies.
+
+By following these steps, you should be able to run the project locally on your machine and explore or develop it further.
